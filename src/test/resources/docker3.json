@@ -1,0 +1,45 @@
+[
+  {
+    "ID": "9uk4639qpg7npwf3fn2aasksr",
+    "Version": {
+      "Index": 418
+    },
+    "CreatedAt": "2016-06-16T21:57:11.622222327Z",
+    "UpdatedAt": "2016-06-16T21:57:11.622222327Z",
+    "Spec": {
+      "Name": "helloworld",
+      "TaskTemplate": {
+        "ContainerSpec": {
+          "Image": "alpine",
+          "Args": [
+            "ping",
+            "docker.com"
+          ]
+        },
+        "Resources": {
+          "Limits": {},
+          "Reservations": {}
+        },
+        "RestartPolicy": {
+          "Condition": "any",
+          "MaxAttempts": 0
+        },
+        "Placement": {}
+      },
+      "Mode": {
+        "Replicated": {
+          "Replicas": 1
+        }
+      },
+      "UpdateConfig": {
+        "Parallelism": 1
+      },
+      "EndpointSpec": {
+        "Mode": "vip"
+      }
+    },
+    "Endpoint": {
+      "Spec": {}
+    }
+  }
+]

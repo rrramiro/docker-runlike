@@ -1,0 +1,87 @@
+[
+  {
+    "Id": "sha256:186a4bba831b7d4dfd0add8bcacfd1608dbd6712766aa326943a07e9a38e555e",
+    "RepoTags": [
+      "go-agent:latest"
+    ],
+    "RepoDigests": [],
+    "Parent": "sha256:c38316c6a74b6352d30931b8d9b57c3466ae093d7298ba798f5ed648033892f6",
+    "Comment": "",
+    "Created": "2016-05-23T22:50:32.464520796Z",
+    "Container": "63d751c8455064634308ab72d812dd2301b64f6157c23272df34e39b158d1e04",
+    "ContainerConfig": {
+      "Hostname": "27c9668b3d5e",
+      "Domainname": "",
+      "User": "",
+      "AttachStdin": false,
+      "AttachStdout": false,
+      "AttachStderr": false,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=~/.conscript/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/bin",
+        "LANG=C.UTF-8",
+        "JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk",
+        "JAVA_VERSION=8u92",
+        "JAVA_ALPINE_VERSION=8.92.14-r0",
+        "GO_AGENT_VERSION=16.4.0-3223",
+        "CONSCRIPT_HOME=~/.conscript",
+        "CONSCRIPT_OPTS=-XX:MaxPermSize=512M -Dfile.encoding=UTF-8"
+      ],
+      "Cmd": [
+        "/bin/sh",
+        "-c",
+        "#(nop) ENV PATH=~/.conscript/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/bin"
+      ],
+      "Image": "sha256:c38316c6a74b6352d30931b8d9b57c3466ae093d7298ba798f5ed648033892f6",
+      "Volumes": null,
+      "WorkingDir": "",
+      "Entrypoint": null,
+      "OnBuild": [],
+      "Labels": {}
+    },
+    "DockerVersion": "1.10.3",
+    "Author": "",
+    "Config": {
+      "Hostname": "27c9668b3d5e",
+      "Domainname": "",
+      "User": "",
+      "AttachStdin": false,
+      "AttachStdout": false,
+      "AttachStderr": false,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=~/.conscript/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/bin",
+        "LANG=C.UTF-8",
+        "JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk",
+        "JAVA_VERSION=8u92",
+        "JAVA_ALPINE_VERSION=8.92.14-r0",
+        "GO_AGENT_VERSION=16.4.0-3223",
+        "CONSCRIPT_HOME=~/.conscript",
+        "CONSCRIPT_OPTS=-XX:MaxPermSize=512M -Dfile.encoding=UTF-8"
+      ],
+      "Cmd": null,
+      "Image": "sha256:c38316c6a74b6352d30931b8d9b57c3466ae093d7298ba798f5ed648033892f6",
+      "Volumes": null,
+      "WorkingDir": "",
+      "Entrypoint": null,
+      "OnBuild": [],
+      "Labels": {}
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 146775168,
+    "VirtualSize": 146775168,
+    "GraphDriver": {
+      "Name": "devicemapper",
+      "Data": {
+        "DeviceId": "47",
+        "DeviceName": "docker-8:4-2622608-3f57d41393da308a17108c82c90eb2976a795fcd37e22a05bead90165443bf58",
+        "DeviceSize": "10737418240"
+      }
+    }
+  }
+]

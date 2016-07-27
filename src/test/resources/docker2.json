@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "e216jshn25ckzbvmwlnh5jr3g",
+    "Version": {
+      "Index": 10
+    },
+    "CreatedAt": "2016-06-16T22:52:44.9910662Z",
+    "UpdatedAt": "2016-06-16T22:52:45.230878043Z",
+    "Spec": {
+      "Role": "manager",
+      "Availability": "active"
+    },
+    "Description": {
+      "Hostname": "swarm-manager",
+      "Platform": {
+        "Architecture": "x86_64",
+        "OS": "linux"
+      },
+      "Resources": {
+        "NanoCPUs": 1000000000,
+        "MemoryBytes": 1039843328
+      },
+      "Engine": {
+        "EngineVersion": "1.12.0",
+        "Plugins": [
+          {
+            "Type": "Volume",
+            "Name": "local"
+          },
+          {
+            "Type": "Network",
+            "Name": "overlay"
+          },
+          {
+            "Type": "Network",
+            "Name": "null"
+          },
+          {
+            "Type": "Network",
+            "Name": "host"
+          },
+          {
+            "Type": "Network",
+            "Name": "bridge"
+          },
+          {
+            "Type": "Network",
+            "Name": "overlay"
+          }
+        ]
+      }
+    },
+    "Status": {
+      "State": "ready"
+    },
+    "ManagerStatus": {
+      "Leader": true,
+      "Reachability": "reachable",
+      "Addr": "168.0.32.137:2377"
+    }
+  }
+]
